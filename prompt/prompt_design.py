@@ -14,7 +14,7 @@ AI: I am an AI created by OpenAI. How can I help you today?"""
 
 
 def gen_response(input_prompt, conversation_start, member_id):
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = os.getenv("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")
     print(conversation_start)
     if conversation_start == 1:
         full_prompt = DEFAULT_PROMPT + "\nHuman: " + input_prompt + "\nAI:"

@@ -16,8 +16,8 @@ app = Flask(__name__)
 
 # Load environment variables
 load_dotenv()
-ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
-VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
+ACCESS_TOKEN = os.getenv('EAAKRPuiWsiQBAPVb8espYYrZAdAQtnwphoivd32RQ3j7bOfZCYc7Gia0y24cT2vxJfwqKDFXRxucfSY2gKtUN0b2ZC8papf3MYtVkZAPpb5tJ69glquDHlLvKzbVmls8rDDZBZCjvDJ3nPkZCaltW02AIBf2N94Yrnd6Iw2jj2k6LDdIw54G24p')
+VERIFY_TOKEN = os.getenv('1313')
 bot = Bot(ACCESS_TOKEN)
 
 # Add logging
